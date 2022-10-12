@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Copyright 2022 Pranav Pandey
+
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+
+	   http://www.apache.org/licenses/LICENSE-2.0
+
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+-->
+
+<resources>
+
+    <!-- Backup and Restore -->
+    <string name="adb_data_operations">資料作業</string>
+    <string name="adb_backup_and_restore">備份與還原</string>
+    <string name="adb_backup">備份</string>
+    <string name="adb_backup_desc">小工具設定將不會備份，請在執行還原作業後手動設定他們。</string>
+    <string name="adb_backup_title">建立備份</string>
+    <string name="adb_backup_select">選取</string>
+    <string name="adb_backup_summary">儲存或分享目前的應用程式設定。</string>
+    <string name="adb_backup_summary_alt">保存或共享當前的應用程序設置和數據。</string>
+    <string name="adb_backup_new">新的</string>
+    <string name="adb_backup_create_new_info">請建立一個新的備份。</string>
+    <string name="adb_backup_import_info">請嘗試從裝置儲存空間中匯入備份。</string>
+    <string name="adb_backup_name">備份名稱</string>
+    <string name="adb_backup_location">備份位置</string>
+    <string name="adb_backup_rename">重新命名備份</string>
+    <string name="adb_backup_complete">備份已成功建立</string>
+    <string name="adb_backup_error">無法建立備份</string>
+    <string name="adb_backup_exists">備份已存在</string>
+    <string name="adb_backup_replace">如果已經存在則取代</string>
+    <string name="adb_backup_invalid">無效備份</string>
+    <string name="adb_backup_restore">還原</string>
+    <string name="adb_backup_restore_title">還原備份</string>
+    <string name="adb_backup_error_save">無法儲存備份</string>
+    <string name="adb_backup_error_rename">無法重新命名備份</string>
+    <string name="adb_backup_restore_summary">載入或管理先前儲存的備份</string>
+    <string name="adb_backup_restore_desc">選取要還原的備份。</string>
+    <string name="adb_backup_restore_backup">還原備份</string>
+    <string name="adb_backup_restore_backup_desc">這將刪除所有目前設定 (小工具除外) 並從所選備份中還原他們。你想繼續嗎?</string>
+    <string name="adb_backup_restore_backup_desc_alt">當前的應用程序狀態將丟失（小工具除外），以便從選定的備份中恢復它。你想繼續嗎?</string>
+    <string name="adb_backup_restore_backup_verify">核實</string>
+    <string name="adb_backup_restore_backup_verify_desc">請等待驗證過程完成。</string>
+    <string name="adb_backup_restore_backup_verify_error">無法驗證此備份。請選取其他備份。</string>
+    <string name="adb_backup_modify">修改</string>
+    <string name="adb_backup_modify_desc">選取要修改的備份。</string>
+    <string name="adb_backup_restore_done">備份已成功還原</string>
+    <string name="adb_backup_restore_error">無法還原備份</string>
+    <string name="adb_backup_not_found">找不到備份。</string>
+    <string name="adb_backup_modify_complete">備份已成功修改</string>
+    <string name="adb_backup_delete_all">刪除全部</string>
+    <string name="adb_backup_delete_all_title">刪除全部備份</string>
+    <string name="adb_backup_delete_all_desc">這將刪除所有儲存在應用程式儲存空間中的備份。你想繼續嗎?</string>
+    <string name="adb_backup_delete_all_done">所有備份已成功刪除</string>
+    <string name="adb_backup_import_title">匯入備份</string>
+    <string name="adb_backup_import_summary">從先前的應用程式狀態開始</string>
+    <string name="adb_backup_import_desc">從裝置或其他儲存裝置匯入備份。</string>
+    <string name="adb_backup_format_location">備份位置：%1$s</string>
+    <string name="adb_backup_format_created">備份已建立：%1$s</string>
+    <string name="adb_backup_format_saved">備份已儲存：%1$s</string>
+    <string name="adb_backup_format_last">上次備份：%1$s</string>
+    <string name="adb_backup_format_last_storage">應用程式儲存空間：%1$s</string>
+    <string name="adb_backup_format_modified">備份已修改：%1$s</string>
+    <string name="adb_backup_format_last_modified">上次修改時間：%1$s</string>
+    <string name="adb_backup_format_renamed">備份已重新命名：%1$s</string>
+    <string name="adb_backup_format_deleted">備份已刪除：%1$s</string>
+    <string name="adb_backup_format_restored">備份已還原：%1$s</string>
+
+    <!-- Backup Options -->
+    <string name="adb_backup_storage_app">應用程式儲存空間</string>
+    <string name="adb_backup_storage_device">裝置儲存空間</string>
+    <string name="adb_backup_send">傳送備份</string>
+
+</resources>

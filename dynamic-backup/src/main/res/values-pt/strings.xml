@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Copyright 2022 Pranav Pandey
+
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+
+	   http://www.apache.org/licenses/LICENSE-2.0
+
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+-->
+
+<resources>
+
+    <!-- Backup and Restore -->
+    <string name="adb_data_operations">Operações de dados</string>
+    <string name="adb_backup_and_restore">Backup &amp; Restauração</string>
+    <string name="adb_backup">Backup</string>
+    <string name="adb_backup_desc">As configurações de Widget não serão salvas, por favor configure eles manualmente após realizar a operação de restauração.</string>
+    <string name="adb_backup_title">Criar backup</string>
+    <string name="adb_backup_select">Selecionar</string>
+    <string name="adb_backup_summary">Salvar ou compartilhar as configurações atuais do app.</string>
+    <string name="adb_backup_summary_alt">Salve ou compartilhe com as configurações e dados atuais do aplicativo.</string>
+    <string name="adb_backup_new">Novo</string>
+    <string name="adb_backup_create_new_info">Por favor crie um novo backup.</string>
+    <string name="adb_backup_import_info">Por favor tente importar um backup do armazenamento do dispositivo.</string>
+    <string name="adb_backup_name">Nome do backup</string>
+    <string name="adb_backup_location">Localização do backup</string>
+    <string name="adb_backup_rename">Renomear backup</string>
+    <string name="adb_backup_complete">O backup foi criado com sucesso</string>
+    <string name="adb_backup_error">Incapaz de criar o backup</string>
+    <string name="adb_backup_exists">O backup já existe</string>
+    <string name="adb_backup_replace">Substitua se já existe</string>
+    <string name="adb_backup_invalid">Backup inválido</string>
+    <string name="adb_backup_restore">Restaurar</string>
+    <string name="adb_backup_restore_title">Restaurar backup</string>
+    <string name="adb_backup_error_save">Incapaz de salvar backup</string>
+    <string name="adb_backup_error_rename">Incapaz de renomear backup</string>
+    <string name="adb_backup_restore_summary">Carregar ou gerenciar os backups salvos previamente.</string>
+    <string name="adb_backup_restore_desc">Selecionar um backup para restaurar.</string>
+    <string name="adb_backup_restore_backup">Restaurar backup</string>
+    <string name="adb_backup_restore_backup_desc">Isso vai apagar todas as configurações atuais (exceto para os Widgets) e restaurá-las do backup selecionado. Você quer continuar?</string>
+    <string name="adb_backup_restore_backup_desc_alt">O estado atual do aplicativo será perdido (exceto para os Widgets) para restaurá-lo do backup selecionado. Você quer continuar?</string>
+    <string name="adb_backup_restore_backup_verify">Verificar</string>
+    <string name="adb_backup_restore_backup_verify_desc">Aguarde até que o processo de verificação seja concluído.</string>
+    <string name="adb_backup_restore_backup_verify_error">Incapaz de verificar este backup. Por favor selecione outro backup.</string>
+    <string name="adb_backup_modify">Modificar</string>
+    <string name="adb_backup_modify_desc">Selecione um backup para modificar.</string>
+    <string name="adb_backup_restore_done">O backup foi restaurado com sucesso</string>
+    <string name="adb_backup_restore_error">Incapaz de restaurar o backup</string>
+    <string name="adb_backup_not_found">Nenhum backup foi encontrado.</string>
+    <string name="adb_backup_modify_complete">O backup foi modificado com sucesso</string>
+    <string name="adb_backup_delete_all">Apagar todos</string>
+    <string name="adb_backup_delete_all_title">Apagar todos os backups</string>
+    <string name="adb_backup_delete_all_desc">Isso vai apagar todos os backups salvos no armazenamento do app. Você quer continuar?</string>
+    <string name="adb_backup_delete_all_done">Todos os backups foram apagados com sucesso</string>
+    <string name="adb_backup_import_title">Importar backup</string>
+    <string name="adb_backup_import_summary">Iniciar de um estado prévio do app</string>
+    <string name="adb_backup_import_desc">Importar um backup do dispositivo ou outro armazenamento.</string>
+    <string name="adb_backup_format_location">Localização do backup: %1$s</string>
+    <string name="adb_backup_format_created">Backup criado: %1$s</string>
+    <string name="adb_backup_format_saved">Backup salvo: %1$s</string>
+    <string name="adb_backup_format_last">Último backup: %1$s</string>
+    <string name="adb_backup_format_last_storage">Armazenamento do app: %1$s</string>
+    <string name="adb_backup_format_modified">Backup modificado: %1$s</string>
+    <string name="adb_backup_format_last_modified">Último modificado: %1$s</string>
+    <string name="adb_backup_format_renamed">Backup renomeado: %1$s</string>
+    <string name="adb_backup_format_deleted">Backup apagado: %1$s</string>
+    <string name="adb_backup_format_restored">Backup restaurado: %1$s</string>
+
+    <!-- Backup Options -->
+    <string name="adb_backup_storage_app">Armazenamento do app</string>
+    <string name="adb_backup_storage_device">Armazenamento do dispositivo</string>
+    <string name="adb_backup_send">Enviar backup</string>
+
+</resources>

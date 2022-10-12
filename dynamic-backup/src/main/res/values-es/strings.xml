@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2022 Pranav Pandey
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<resources>
+
+    <!-- Backup and Restore -->
+    <string name="adb_data_operations">Operaciones de datos</string>
+    <string name="adb_backup_and_restore">Respaldar y restaurar</string>
+    <string name="adb_backup">Respaldar</string>
+    <string name="adb_backup_desc">La configuración de los widgets no se respaldará, por favor configúralos manualmente después de restaurar.</string>
+    <string name="adb_backup_title">Crear respaldo</string>
+    <string name="adb_backup_select">Seleccionar</string>
+    <string name="adb_backup_summary">Guardar o compartir la configuración actual de la aplicación.</string>
+    <string name="adb_backup_summary_alt">Guarde o comparta la configuración y los datos actuales de la aplicación.</string>
+    <string name="adb_backup_new">Nuevo</string>
+    <string name="adb_backup_create_new_info">Por favor crear un nuevo respaldo.</string>
+    <string name="adb_backup_import_info">Por favor intentar la importación de un respaldo desde el almacenamiento del dispositivo.</string>
+    <string name="adb_backup_name">Nombre del respaldo</string>
+    <string name="adb_backup_location">Ruta del respaldo</string>
+    <string name="adb_backup_rename">Renombrar respaldo</string>
+    <string name="adb_backup_complete">El respaldo se creó exitosamente</string>
+    <string name="adb_backup_error">No se pudo crear el respaldo</string>
+    <string name="adb_backup_exists">La copia de respaldo ya existe</string>
+    <string name="adb_backup_replace">Reemplazar si ya existe</string>
+    <string name="adb_backup_invalid">Copia de respaldo inválida</string>
+    <string name="adb_backup_restore">Restaurar</string>
+    <string name="adb_backup_restore_title">Restaurar respaldo</string>
+    <string name="adb_backup_error_save">No se pudo guardar el respaldo</string>
+    <string name="adb_backup_error_rename">No se pudo renombrar el respaldo</string>
+    <string name="adb_backup_restore_summary">Cargar o administrar los respaldos previamente guardados.</string>
+    <string name="adb_backup_restore_desc">Seleccionar un respaldo para restaurar.</string>
+    <string name="adb_backup_restore_backup">Restaurar respaldo</string>
+    <string name="adb_backup_restore_backup_desc">Esto eliminará la configuración actual (excepto los widgets) y la restaurará desde el respaldo seleccionado. ¿Continuar?</string>
+    <string name="adb_backup_restore_backup_desc_alt">El estado actual de la aplicación se perderá (excepto los widgets) para restaurarlo desde la copia de seguridad seleccionada. ¿Continuar?</string>
+    <string name="adb_backup_restore_backup_verify">Verificar</string>
+    <string name="adb_backup_restore_backup_verify_desc">Espere hasta que se complete el proceso de verificación.</string>
+    <string name="adb_backup_restore_backup_verify_error">No se pudo verificar este respaldo. Por favor escoger otro.</string>
+    <string name="adb_backup_modify">Modificar</string>
+    <string name="adb_backup_modify_desc">Elegir un respaldo para modificar.</string>
+    <string name="adb_backup_restore_done">El respaldo se creó exitosamente</string>
+    <string name="adb_backup_restore_error">No se pudo restaurar el respaldo.</string>
+    <string name="adb_backup_not_found">No se encontró ningún respaldo.</string>
+    <string name="adb_backup_modify_complete">El respaldo se modificó exitosamente</string>
+    <string name="adb_backup_delete_all">Eliminar todo</string>
+    <string name="adb_backup_delete_all_title">Eliminar todos los respaldos</string>
+    <string name="adb_backup_delete_all_desc">Esto eliminará todos los respaldos guardados en el almacenamiento de la aplicación. ¿Continuar?</string>
+    <string name="adb_backup_delete_all_done">Todos los respaldos se eliminaron exitosamente.</string>
+    <string name="adb_backup_import_title">Importar respaldo</string>
+    <string name="adb_backup_import_summary">Iniciar desde un estado previo de la aplicación</string>
+    <string name="adb_backup_import_desc">Importar un respaldo desde el dispositivo u otro almacenamiento.</string>
+    <string name="adb_backup_format_location">Ruta del respaldo: %1$s</string>
+    <string name="adb_backup_format_created">Respaldo creado: %1$s</string>
+    <string name="adb_backup_format_saved">Respaldo guardado: %1$s</string>
+    <string name="adb_backup_format_last">Último respaldo: %1$s</string>
+    <string name="adb_backup_format_last_storage">Almacenamiento de la aplicación: %1$s</string>
+    <string name="adb_backup_format_modified">Respaldo modificado: %1$s</string>
+    <string name="adb_backup_format_last_modified">Modificado por última vez: %1$s</string>
+    <string name="adb_backup_format_renamed">Respaldo renombrado: %1$s</string>
+    <string name="adb_backup_format_deleted">Respaldo eliminado: %1$s</string>
+    <string name="adb_backup_format_restored">Respaldo restaurado: %1$s</string>
+
+    <!-- Backup Options -->
+    <string name="adb_backup_storage_app">Almacenamiento de la aplicación</string>
+    <string name="adb_backup_storage_device">Almacenamiento del dispositivo</string>
+    <string name="adb_backup_send">Enviar respaldo</string>
+
+</resources>

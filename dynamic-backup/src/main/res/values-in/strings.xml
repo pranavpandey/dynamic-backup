@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Copyright 2022 Pranav Pandey
+
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+
+	   http://www.apache.org/licenses/LICENSE-2.0
+
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+-->
+
+<resources>
+
+    <!-- Backup and Restore -->
+    <string name="adb_data_operations">Operasi data</string>
+    <string name="adb_backup_and_restore">Cadangkan &amp; Pulihkan</string>
+    <string name="adb_backup">Cadangkan</string>
+    <string name="adb_backup_desc">Pengaturan widget tidak akan dicadangkan, mohon atur secara manual setelah melakukan operasi pemulihan.</string>
+    <string name="adb_backup_title">Buat cadangan</string>
+    <string name="adb_backup_select">Pilih</string>
+    <string name="adb_backup_summary">Simpan atau bagikan pengaturan aplikasi saat ini.</string>
+    <string name="adb_backup_summary_alt">Simpan atau bagikan setelan dan data aplikasi saat ini.</string>
+    <string name="adb_backup_new">Baru</string>
+    <string name="adb_backup_create_new_info">Mohon buat cadangan baru.</string>
+    <string name="adb_backup_import_info">Mohon coba untuk mengimpor cadangan dari penyimpanan device.</string>
+    <string name="adb_backup_name">Nama cadangan</string>
+    <string name="adb_backup_location">Lokasi cadangan</string>
+    <string name="adb_backup_rename">Ubah nama cadangan</string>
+    <string name="adb_backup_complete">Cadangan telah sukses dibuat</string>
+    <string name="adb_backup_error">Tidak dapat membuat cadangan</string>
+    <string name="adb_backup_exists">Cadangan sudah ada</string>
+    <string name="adb_backup_replace">Ganti jika sudah ada</string>
+    <string name="adb_backup_invalid">Cadangan tidak sah</string>
+    <string name="adb_backup_restore">Pulihkan</string>
+    <string name="adb_backup_restore_title">Pulihkan cadangan</string>
+    <string name="adb_backup_error_save">Tidak dapat menyimpan cadangan</string>
+    <string name="adb_backup_error_rename">Tidak dapat merubah nama cadangan</string>
+    <string name="adb_backup_restore_summary">Muat atau kelola cadangan yang tersimpan.</string>
+    <string name="adb_backup_restore_desc">Pilih cadangan untuk dipulihkan.</string>
+    <string name="adb_backup_restore_backup">Pulihkan cadangan</string>
+    <string name="adb_backup_restore_backup_desc">Ini akan menghapus seluruh pengaturan saat ini (kecuali widget) dan memulihkannya dari cadangan yang dipilih. Lanjutkan?</string>
+    <string name="adb_backup_restore_backup_desc_alt">Status aplikasi saat ini akan hilang (kecuali widget) untuk memulihkannya dari cadangan yang dipilih. Lanjutkan?</string>
+    <string name="adb_backup_restore_backup_verify">Memeriksa</string>
+    <string name="adb_backup_restore_backup_verify_desc">Silahkan tunggu sampai proses verifikasi selesai.</string>
+    <string name="adb_backup_restore_backup_verify_error">Tidak dapat memverifikasi cadangan ini. Mohon pilih cadangan lainnya.</string>
+    <string name="adb_backup_modify">Rubah</string>
+    <string name="adb_backup_modify_desc">Pilih cadangan untuk dirubah.</string>
+    <string name="adb_backup_restore_done">Cadangan telah sukses dirubah</string>
+    <string name="adb_backup_restore_error">Tidak dapat memulihkan cadangan.</string>
+    <string name="adb_backup_not_found">Tidak ada cadangan yang ditemukan.</string>
+    <string name="adb_backup_modify_complete">Cadangan telah sukses dirubah</string>
+    <string name="adb_backup_delete_all">Hapus semua</string>
+    <string name="adb_backup_delete_all_title">Hapus semua cadangan</string>
+    <string name="adb_backup_delete_all_desc">Ini akan menghapus seluruh cadangan yang tersimpan di penyimpanan aplikasi. Lanjutkan?</string>
+    <string name="adb_backup_delete_all_done">Seluruh cadangan telah sukses dihapus.</string>
+    <string name="adb_backup_import_title">Impor cadangan</string>
+    <string name="adb_backup_import_summary">Mulai dengan keadaan aplikasi sebelumnya</string>
+    <string name="adb_backup_import_desc">Impor cadangan dari device atau penyimpanan lainnya.</string>
+    <string name="adb_backup_format_location">Lokasi cadangan: %1$s</string>
+    <string name="adb_backup_format_created">Cadangan dibuat: %1$s</string>
+    <string name="adb_backup_format_saved">Cadangan disimpan: %1$s</string>
+    <string name="adb_backup_format_last">Cadangan terakhir: %1$s</string>
+    <string name="adb_backup_format_last_storage">Penyimpanan aplikasi: %1$s</string>
+    <string name="adb_backup_format_modified">Cadangan dimodifikasi: %1$s</string>
+    <string name="adb_backup_format_last_modified">Terakhir dimodifikasi: %1$s</string>
+    <string name="adb_backup_format_renamed">Nama cadangan dirubah: %1$s</string>
+    <string name="adb_backup_format_deleted">Cadangan dihapus: %1$s</string>
+    <string name="adb_backup_format_restored">Cadangan dipulihkan: %1$s</string>
+
+    <!-- Backup Options -->
+    <string name="adb_backup_storage_app">Penyimpanan aplikasi</string>
+    <string name="adb_backup_storage_device">Penyimpanan device</string>
+    <string name="adb_backup_send">Kirim cadangan</string>
+
+</resources>

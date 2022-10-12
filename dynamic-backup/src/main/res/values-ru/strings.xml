@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Copyright 2022 Pranav Pandey
+
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+
+	   http://www.apache.org/licenses/LICENSE-2.0
+
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+-->
+
+<resources>
+
+    <!-- Backup and Restore -->
+    <string name="adb_data_operations">Операции с данными</string>
+    <string name="adb_backup_and_restore">Резервное копирование и восстановление</string>
+    <string name="adb_backup">Резервное копирование</string>
+    <string name="adb_backup_desc">Настройки виджета не будут включены в резервную копию, пожалуйста, установите их вручную после выполнения операции восстановления.</string>
+    <string name="adb_backup_title">Создать резервную копию</string>
+    <string name="adb_backup_select">Выбрать</string>
+    <string name="adb_backup_summary">Сохранить или поделиться текущими настройками приложения.</string>
+    <string name="adb_backup_summary_alt">Сохраняйте или делитесь текущими настройками и данными приложения.</string>
+    <string name="adb_backup_new">Новый</string>
+    <string name="adb_backup_create_new_info">Пожалуйста, создайте резервную копию.</string>
+    <string name="adb_backup_import_info">Пожалуйста, попробуйте импортировать резервную копию из памяти устройства.</string>
+    <string name="adb_backup_name">Имя резервной копии</string>
+    <string name="adb_backup_location">Расположение резервной копии</string>
+    <string name="adb_backup_rename">Переименовать резервную копию</string>
+    <string name="adb_backup_complete">Резервная копия успешно создана</string>
+    <string name="adb_backup_error">Невозможно создать резервную копию</string>
+    <string name="adb_backup_exists">Резервная копия уже существует</string>
+    <string name="adb_backup_replace">Заменить, если уже существует</string>
+    <string name="adb_backup_invalid">Неверная резервная копия</string>
+    <string name="adb_backup_restore">Восстановить</string>
+    <string name="adb_backup_restore_title">Восстановить из резервной копии</string>
+    <string name="adb_backup_error_save">Невозможно сохранить резервную копию</string>
+    <string name="adb_backup_error_rename">Невозможно переименовать резервную копию</string>
+    <string name="adb_backup_restore_summary">Загрузить или управлять ранее сохраненными резервными копиями.</string>
+    <string name="adb_backup_restore_desc">Выберите резервную копию для восстановления.</string>
+    <string name="adb_backup_restore_backup">Восстановить из резервной копии</string>
+    <string name="adb_backup_restore_backup_desc">Это удалит все текущие настройки (кроме виджетов) и восстановит их из выбранной резервной копии. Вы хотите продолжить?</string>
+    <string name="adb_backup_restore_backup_desc_alt">Текущее состояние приложения будет утеряно (кроме виджетов), чтобы восстановить его из выбранной резервной копии. Вы хотите продолжить?</string>
+    <string name="adb_backup_restore_backup_verify">Проверять</string>
+    <string name="adb_backup_restore_backup_verify_desc">Пожалуйста, дождитесь завершения процесса проверки.</string>
+    <string name="adb_backup_restore_backup_verify_error">Невозможно верифицировать эту резервную копию. Пожалуйста, выберите другую резервную копию.</string>
+    <string name="adb_backup_modify">Изменить</string>
+    <string name="adb_backup_modify_desc">Выберите резервную копию для изменения.</string>
+    <string name="adb_backup_restore_done">Резервная копия была успешно восстановлена</string>
+    <string name="adb_backup_restore_error">Невозможно восстановить резервную копию.</string>
+    <string name="adb_backup_not_found">Резервных копий не найдено.</string>
+    <string name="adb_backup_modify_complete">Резервная копия успешно изменена</string>
+    <string name="adb_backup_delete_all">Удалить все</string>
+    <string name="adb_backup_delete_all_title">Удалить все резервные копии</string>
+    <string name="adb_backup_delete_all_desc">Это удалит все резервные копии, сохраненные в памяти приложения. Вы хотите продолжить?</string>
+    <string name="adb_backup_delete_all_done">Все резервные копии успешно удалены.</string>
+    <string name="adb_backup_import_title">Импортировать резервную копию</string>
+    <string name="adb_backup_import_summary">Начать с предыдущего состояния приложения</string>
+    <string name="adb_backup_import_desc">Импортировать резервную копию с устройства или из другого хранилища.</string>
+    <string name="adb_backup_format_location">Расположение резервной копии: %1$s</string>
+    <string name="adb_backup_format_created">Резервная копия создана: %1$s</string>
+    <string name="adb_backup_format_saved">Резервная копия сохранена: %1$s</string>
+    <string name="adb_backup_format_last">Последняя резервная копия: %1$s</string>
+    <string name="adb_backup_format_last_storage">Память приложения: %1$s</string>
+    <string name="adb_backup_format_modified">Резервная копия изменена: %1$s</string>
+    <string name="adb_backup_format_last_modified">Последнее изменение: %1$s</string>
+    <string name="adb_backup_format_renamed">Резервная копия переименована: %1$s</string>
+    <string name="adb_backup_format_deleted">Резервная копия удалена: %1$s</string>
+    <string name="adb_backup_format_restored">Резервная копия восстановлена: %1$s</string>
+
+    <!-- Backup Options -->
+    <string name="adb_backup_storage_app">Память приложения</string>
+    <string name="adb_backup_storage_device">Память устройства</string>
+    <string name="adb_backup_send">Отправить резервную копию</string>
+
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Copyright 2022 Pranav Pandey
+
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+
+	   http://www.apache.org/licenses/LICENSE-2.0
+
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+-->
+
+<resources>
+
+    <!-- Backup and Restore -->
+    <string name="adb_data_operations">Veri işlemleri</string>
+    <string name="adb_backup_and_restore">Yedekle &amp; Geri Yükle</string>
+    <string name="adb_backup">Yedekle</string>
+    <string name="adb_backup_desc">Widget ayarları yedeklenmeyecek, lütfen geri yükleme işlemini gerçekleştirdikten sonra elle yapılandırın.</string>
+    <string name="adb_backup_title">Yedek oluştur</string>
+    <string name="adb_backup_select">Seç</string>
+    <string name="adb_backup_summary">Geçerli uygulama ayarlarını kaydedin veya paylaşın.</string>
+    <string name="adb_backup_summary_alt">Mevcut uygulama ayarlarını ve verilerini kaydedin veya paylaşın.</string>
+    <string name="adb_backup_new">Yeni</string>
+    <string name="adb_backup_create_new_info">Lütfen yeni bir yedek oluşturun.</string>
+    <string name="adb_backup_import_info">Lütfen cihaz belleğinden yedek almayı deneyin.</string>
+    <string name="adb_backup_name">Yedek adı</string>
+    <string name="adb_backup_location">Yedek konumu</string>
+    <string name="adb_backup_rename">Yedeği yeniden adlandır</string>
+    <string name="adb_backup_complete">Yedek başarıyla oluşturuldu</string>
+    <string name="adb_backup_error">Yedek oluşturulamadı</string>
+    <string name="adb_backup_exists">Yedek zaten var</string>
+    <string name="adb_backup_replace">Zaten varsa değiştirin</string>
+    <string name="adb_backup_invalid">Geçersiz yedek</string>
+    <string name="adb_backup_restore">Geri yükle</string>
+    <string name="adb_backup_restore_title">Yedeği geri yükle</string>
+    <string name="adb_backup_error_save">Yedek kaydedilemedi</string>
+    <string name="adb_backup_error_rename">Yedek yeniden adlandırılamadı</string>
+    <string name="adb_backup_restore_summary">Önceden kaydedilmiş yedekleri yükleyin veya yönetin.</string>
+    <string name="adb_backup_restore_desc">Geri yüklenecek yedeği seçin.</string>
+    <string name="adb_backup_restore_backup">Yedeği geri yükle</string>
+    <string name="adb_backup_restore_backup_desc">Bu, tüm geçerli ayarları (widget\'lar hariç) siler ve seçilen yedekten geri yükler. Devam etmek istiyor musunuz?</string>
+    <string name="adb_backup_restore_backup_desc_alt">Seçili yedeklemeden geri yüklemek için mevcut uygulama durumu (widget\'lar hariç) kaybolacaktır. Devam etmek istiyor musunuz?</string>
+    <string name="adb_backup_restore_backup_verify">Doğrulayın</string>
+    <string name="adb_backup_restore_backup_verify_desc">Lütfen doğrulama işlemi tamamlanana kadar bekleyin.</string>
+    <string name="adb_backup_restore_backup_verify_error">Bu yedek doğrulanamadı. Lütfen başka bir yedek seçin.</string>
+    <string name="adb_backup_modify">Değiştir</string>
+    <string name="adb_backup_modify_desc">Değiştirilecek yedeği seçin.</string>
+    <string name="adb_backup_restore_done">Yedek başarıyla geri yüklendi</string>
+    <string name="adb_backup_restore_error">Yedek geri yüklenemedi.</string>
+    <string name="adb_backup_not_found">Yedek bulunamadı.</string>
+    <string name="adb_backup_modify_complete">Yedek başarıyla değiştirildi</string>
+    <string name="adb_backup_delete_all">Tümünü sil</string>
+    <string name="adb_backup_delete_all_title">Tüm yedekleri sil</string>
+    <string name="adb_backup_delete_all_desc">Bu, uygulama belleğinde kayıtlı tüm yedekleri siler. Devam etmek istiyor musunuz?</string>
+    <string name="adb_backup_delete_all_done">Tüm yedekler başarıyla silindi.</string>
+    <string name="adb_backup_import_title">Yedeği içe aktar</string>
+    <string name="adb_backup_import_summary">Önceki uygulama durumundan başlayın</string>
+    <string name="adb_backup_import_desc">Bir yedeği cihazdan veya başka bir depolama biriminden içe aktarın.</string>
+    <string name="adb_backup_format_location">Yedek konumu: %1$s</string>
+    <string name="adb_backup_format_created">Yedek oluşturuldu: %1$s</string>
+    <string name="adb_backup_format_saved">Yedek kaydedildi: %1$s</string>
+    <string name="adb_backup_format_last">Son yedek: %1$s</string>
+    <string name="adb_backup_format_last_storage">Uygulama depolama alanı: %1$s</string>
+    <string name="adb_backup_format_modified">Yedeği değiştirme: %1$s</string>
+    <string name="adb_backup_format_last_modified">Son değiştirme: %1$s</string>
+    <string name="adb_backup_format_renamed">Yedeği yeniden adlandırma: %1$s</string>
+    <string name="adb_backup_format_deleted">Yedeği silme: %1$s</string>
+    <string name="adb_backup_format_restored">Yedeği geri yükleme: %1$s</string>
+
+    <!-- Backup Options -->
+    <string name="adb_backup_storage_app">Uygulama depolama alanı</string>
+    <string name="adb_backup_storage_device">Cihaz depolama alanı</string>
+    <string name="adb_backup_send">Yedeği gönder</string>
+
+</resources>

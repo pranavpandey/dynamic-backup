@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Copyright 2022 Pranav Pandey
+
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+
+	   http://www.apache.org/licenses/LICENSE-2.0
+
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+-->
+
+<resources>
+
+    <!-- Backup and Restore -->
+    <string name="adb_data_operations">Datenoperationen</string>
+    <string name="adb_backup_and_restore">Sicherung &amp; Wiederherstellung</string>
+    <string name="adb_backup">Sicherung</string>
+    <string name="adb_backup_desc">Widget-Einstellungen werden nicht gesichert, bitte konfiguriere diese nach dem Wiederherstellen manuell.</string>
+    <string name="adb_backup_title">Sicherung erstellen</string>
+    <string name="adb_backup_select">Auswählen</string>
+    <string name="adb_backup_summary">Speichere oder Teile die aktuellen App-Einstellungen.</string>
+    <string name="adb_backup_summary_alt">Speichern oder teilen Sie die aktuellen App-Einstellungen und Daten.</string>
+    <string name="adb_backup_new">Neu</string>
+    <string name="adb_backup_create_new_info">Bitte erstelle eine neue Sicherung.</string>
+    <string name="adb_backup_import_info">Bitte versuche, eine Sicherung aus dem Gerätespeicher zu importieren.</string>
+    <string name="adb_backup_name">Name der Sicherung</string>
+    <string name="adb_backup_location">Pfad der Sicherung</string>
+    <string name="adb_backup_rename">Sicherung umbenennen</string>
+    <string name="adb_backup_complete">Sicherung wurde erfolgreich erstellt</string>
+    <string name="adb_backup_error">Sicherung kann nicht erstellt werden</string>
+    <string name="adb_backup_exists">Sicherung existiert bereits</string>
+    <string name="adb_backup_replace">Ersetzen, falls bereits vorhanden</string>
+    <string name="adb_backup_invalid">Ungültige Sicherung</string>
+    <string name="adb_backup_restore">Wiederherstellen</string>
+    <string name="adb_backup_restore_title">Sicherung wiederherstellen</string>
+    <string name="adb_backup_error_save">Sicherung kann nicht gespeichert werden</string>
+    <string name="adb_backup_error_rename">Sicherung kann nicht umbenannt werden</string>
+    <string name="adb_backup_restore_summary">Früher gespeicherte Sicherungen laden oder verwalten.</string>
+    <string name="adb_backup_restore_desc">Wähle eine Sicherung zum Wiederherstellen aus.</string>
+    <string name="adb_backup_restore_backup">Sicherung wiederherstellen</string>
+    <string name="adb_backup_restore_backup_desc">Dies wird alle aktuellen Einstellungen (mit Ausnahme von Widgets) löschen und aus der ausgewählten Sicherung wiederherstellen. Möchtest du fortfahren?</string>
+    <string name="adb_backup_restore_backup_desc_alt">Der aktuelle App-Status geht verloren (mit Ausnahme von Widgets), um ihn aus dem ausgewählten Backup wiederherzustellen. Möchtest du fortfahren?</string>
+    <string name="adb_backup_restore_backup_verify">Verifizieren</string>
+    <string name="adb_backup_restore_backup_verify_desc">Bitte warten Sie, bis der Verifizierungsprozess abgeschlossen ist.</string>
+    <string name="adb_backup_restore_backup_verify_error">Sicherung kann nicht verifiziert werden. Bitte wähle eine andere Sicherung.</string>
+    <string name="adb_backup_modify">Bearbeiten</string>
+    <string name="adb_backup_modify_desc">Wähle eine Sicherung zum Bearbeiten.</string>
+    <string name="adb_backup_restore_done">Sicherung wurde erfolgreich wiederhergestellt</string>
+    <string name="adb_backup_restore_error">Sicherung kann nicht wiederhergestellt werden.</string>
+    <string name="adb_backup_not_found">Es wurde keine Sicherung gefunden.</string>
+    <string name="adb_backup_modify_complete">Sicherung wurde erfolgreich bearbeitet</string>
+    <string name="adb_backup_delete_all">Alle löschen</string>
+    <string name="adb_backup_delete_all_title">Alle Sicherungen löschen</string>
+    <string name="adb_backup_delete_all_desc">Dies wird alle Sicherungen, welche im App-Speicher gespeichert wurden, löschen. Möchtest du fortfahren?</string>
+    <string name="adb_backup_delete_all_done">Alle Sicherungen wurden erfolgreich gelöscht.</string>
+    <string name="adb_backup_import_title">Sicherung importieren</string>
+    <string name="adb_backup_import_summary">Von einem früheren App-Status starten.</string>
+    <string name="adb_backup_import_desc">Sicherung aus dem Gerätespeicher oder einem anderen Speicher laden</string>
+    <string name="adb_backup_format_location">Pfad der Sicherung: %1$s</string>
+    <string name="adb_backup_format_created">Sicherung erstellt: %1$s</string>
+    <string name="adb_backup_format_saved">Sicherung gespeichert: %1$s</string>
+    <string name="adb_backup_format_last">Letzte Sicherung: %1$s</string>
+    <string name="adb_backup_format_last_storage">App-Speicher: %1$s</string>
+    <string name="adb_backup_format_modified">Sicherung bearbeitet: %1$s</string>
+    <string name="adb_backup_format_last_modified">Zuletzt bearbeitet: %1$s</string>
+    <string name="adb_backup_format_renamed">Sicherung umbenannt: %1$s</string>
+    <string name="adb_backup_format_deleted">Sicherung gelöscht: %1$s</string>
+    <string name="adb_backup_format_restored">Sicherung wiederhergestellt: %1$s</string>
+
+    <!-- Backup Options -->
+    <string name="adb_backup_storage_app">App-Speicher</string>
+    <string name="adb_backup_storage_device">Gerätespeicher</string>
+    <string name="adb_backup_send">Sicherung senden</string>
+
+</resources>

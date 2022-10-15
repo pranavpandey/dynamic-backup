@@ -55,7 +55,7 @@ import com.pranavpandey.android.dynamic.util.concurrent.task.FileWriteTask;
 import java.io.File;
 
 /**
- * A dynamic fragment to provide backup functionality.
+ * A {@link DynamicFragment} to provide backup and restore functionality.
  * <p>Extend it and implement the required methods accordingly.
  */
 public abstract class DynamicBackupFragment extends DynamicFragment

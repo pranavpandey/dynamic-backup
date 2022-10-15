@@ -44,7 +44,7 @@ import com.pranavpandey.android.dynamic.util.concurrent.DynamicTask;
 import java.io.File;
 
 /**
- * A dialog fragment to provide the backup restore functionality.
+ * A {@link DynamicDialogFragment} to provide the backup restore functionality.
  */
 public class DynamicRestoreDialog extends DynamicDialogFragment {
 

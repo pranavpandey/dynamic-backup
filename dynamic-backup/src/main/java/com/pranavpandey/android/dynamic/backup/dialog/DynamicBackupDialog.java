@@ -63,7 +63,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * A {@link DynamicDialogFragment} perform backup related operations.
+ * A {@link DynamicDialogFragment} to perform backup related operations.
  */
 public class DynamicBackupDialog extends DynamicDialogFragment {
 

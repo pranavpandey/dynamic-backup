@@ -16,6 +16,10 @@
 
 package com.pranavpandey.android.dynamic.backup;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import java.io.File;
@@ -26,7 +30,7 @@ import static com.pranavpandey.android.dynamic.backup.Backup.Type.BACKUP;
 /**
  * Backup configuration to create or restore a backup.
  */
-public class BackupConfig {
+public class BackupConfig implements Parcelable {
 
     /**
      * Name for the backup.
@@ -103,6 +107,49 @@ public class BackupConfig {
         this.location = location;
         this.file = file;
         this.delete = delete;
+    }
+
+    /**
+     * Read an object of this class from the parcel.
+     *
+     * @param in The parcel to read the values.
+     */
+    public BackupConfig(@NonNull Parcel in) {
+        this.name = in.readString();
+        this.type = in.readInt();
+        this.location = in.readInt();
+        this.file = (File) in.readSerializable();
+        this.delete = in.readByte() != 0;
+    }
+
+    /**
+     * Parcelable creator to create from parcel.
+     */
+    public static final Parcelable.Creator<BackupConfig> CREATOR =
+            new Parcelable.Creator<BackupConfig>() {
+        @Override
+        public BackupConfig createFromParcel(Parcel in) {
+            return new BackupConfig(in);
+        }
+
+        @Override
+        public BackupConfig[] newArray(int size) {
+            return new BackupConfig[size];
+        }
+    };
+
+    @Override
+    public int describeContents() {
+        return hashCode();
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeString(name);
+        dest.writeInt(type);
+        dest.writeInt(location);
+        dest.writeSerializable(file);
+        dest.writeByte((byte) (delete ? 1 : 0));
     }
 
     /**

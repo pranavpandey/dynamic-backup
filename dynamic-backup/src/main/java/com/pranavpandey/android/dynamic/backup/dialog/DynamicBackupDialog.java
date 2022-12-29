@@ -16,6 +16,7 @@
 
 package com.pranavpandey.android.dynamic.backup.dialog;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -65,6 +66,7 @@ import java.util.List;
 /**
  * A {@link DynamicDialogFragment} to perform backup related operations.
  */
+@SuppressLint("RestrictedApi")
 public class DynamicBackupDialog extends DynamicDialogFragment {
 
     /**

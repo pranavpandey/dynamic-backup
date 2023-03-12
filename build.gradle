@@ -20,9 +20,9 @@ buildscript {
             'minSdk'     : 14,
             'targetSdk'  : 33,
             'buildTools' : '33.0.2',
-            'preferences': '2.2.2',
+            'preferences': '2.2.3',
             'sqlite'     : '2.3.0',
-            'support'    : '6.2.0'
+            'support'    : '6.2.1'
     ]
 
     repositories {

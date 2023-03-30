@@ -35,7 +35,7 @@
     <string name="adb_backup_complete">备份已成功创建</string>
     <string name="adb_backup_error">无法创建备份</string>
     <string name="adb_backup_exists">备份已存在</string>
-    <string name="adb_backup_replace">Replace if already exists</string>
+    <string name="adb_backup_replace">替换（如果已存在）</string>
     <string name="adb_backup_invalid">备份无效</string>
     <string name="adb_backup_restore">恢复</string>
     <string name="adb_backup_restore_title">恢复备份</string>

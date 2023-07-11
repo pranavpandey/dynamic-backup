@@ -103,6 +103,11 @@ public class DynamicRestoreDialog extends DynamicDialogFragment {
      */
     private ProgressBar mProgressBar;
 
+    /**
+     * Initialize the new instance of this fragment.
+     *
+     * @return An instance of {@link DynamicRestoreDialog}.
+     */
     public static @NonNull DynamicRestoreDialog newInstance() {
         return new DynamicRestoreDialog();
     }

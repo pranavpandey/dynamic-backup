@@ -24,6 +24,8 @@ import com.pranavpandey.android.dynamic.util.concurrent.DynamicTask;
 
 /**
  * A {@link DynamicTask} to create backup.
+ *
+ * @param <T> The type of result this task will deliver.
  */
 public abstract class DynamicBackupTask<T> extends DynamicTask<Void, Void, T> {
 

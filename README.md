@@ -9,6 +9,7 @@ A library to backup and restore app data on Android 4.0 (API 14) and above.
 
 > It uses [AndroidX][androidx] so, first [migrate][androidx-migrate] your project to AndroidX.
 <br/>It is dependent on Java 8 due to the dependency on [Dynamic Utils][dynamic-utils].
+<br/>Since v1.1.0, it is targeting Java 17 to provide maximum compatibility.
 
 ---
 

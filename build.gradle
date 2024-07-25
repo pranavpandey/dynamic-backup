@@ -21,9 +21,9 @@ buildscript {
             'targetSdk'  : 35,
             'buildTools' : '35.0.0',
             'kotlin'     : '1.9.24',
-            'preferences': '2.3.1',
-            'sqlite'     : '2.3.1',
-            'support'    : '6.3.0'
+            'preferences': '2.4.0',
+            'sqlite'     : '2.4.0',
+            'support'    : '6.4.0'
     ]
 
     repositories {

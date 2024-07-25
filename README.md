@@ -10,6 +10,7 @@ A library to backup and restore app data on Android 4.0 (API 14) and above.
 > It uses [AndroidX][androidx] so, first [migrate][androidx-migrate] your project to AndroidX.
 <br/>It is dependent on Java 8 due to the dependency on [Dynamic Utils][dynamic-utils].
 <br/>Since v1.1.0, it is targeting Java 17 to provide maximum compatibility.
+<br/>Since v1.2.0, the minimum SDK is Android 4.4 (API 19) to comply with the latest policies.
 
 ---
 
@@ -30,7 +31,7 @@ It can be installed by adding the following dependency to your `build.gradle` fi
 ```groovy
 dependencies {
     // For AndroidX enabled projects.
-    implementation 'com.pranavpandey.android:dynamic-backup:1.1.0'
+    implementation 'com.pranavpandey.android:dynamic-backup:1.2.0'
 }
 ```
 

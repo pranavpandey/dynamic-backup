@@ -1,12 +1,13 @@
-<img src="./graphics/icon.png" width="160" height="160" align="right" hspace="20">
+<img src="./graphics/icon.png" height="160">
 
 # Dynamic Backup
 
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg?)](https://www.apache.org/licenses/LICENSE-2.0.html)
 [![Release](https://img.shields.io/maven-central/v/com.pranavpandey.android/dynamic-backup)](https://search.maven.org/artifact/com.pranavpandey.android/dynamic-backup)
 
-A library to backup and restore app data on Android 4.0 (API 14) and above.
+**A library to backup and restore app data on Android 4.0 (API 14) and above.**
 
+> [!IMPORTANT]
 > It uses [AndroidX][androidx] so, first [migrate][androidx-migrate] your project to AndroidX.
 <br/>It is dependent on Java 8 due to the dependency on [Dynamic Utils][dynamic-utils].
 <br/>Since v1.1.0, it is targeting Java 17 to provide maximum compatibility.
